@@ -4,7 +4,7 @@
     "ignore": []
   },
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
     "es6": true,
     "enhance": false,
     "postcss": true,
@@ -30,10 +30,7 @@
       "outputPath": ""
     },
     "enableEngineNative": false,
-<<<<<<< HEAD
-=======
     "bundle": false,
->>>>>>> 1bf605e (非push)
     "useIsolateContext": true,
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
@@ -43,13 +40,9 @@
     "minifyWXSS": true
   },
   "compileType": "miniprogram",
-<<<<<<< HEAD
   "libVersion": "2.17.0",
-=======
-  "libVersion": "2.16.1",
->>>>>>> 1bf605e (非push)
   "appid": "wx084b13638c1810be",
-  "projectname": "hbt-mall-v2",
+  "projectname": "hbt_v2",
   "debugOptions": {
     "hidedInDevtools": []
   },
