@@ -1,0 +1,39 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "分类",
+          "pathName": "pages/category/index",
+          "query": "",
+          "scene": null
+<<<<<<< HEAD
+=======
+        },
+        {
+          "name": "商品列表",
+          "pathName": "pages/good_list/index",
+          "query": "cid=5",
+          "scene": null
+        },
+        {
+          "name": "商品详情",
+          "pathName": "pages/good_detail/index",
+          "query": "goods_id=57440",
+          "scene": null
+>>>>>>> 1bf605e (非push)
+        }
+      ]
+    }
+  }
+}

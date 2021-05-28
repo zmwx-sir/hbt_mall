@@ -1,0 +1,23 @@
+<<<<<<< HEAD
+<!--pages/good_list/index.wxml-->
+<text>pages/good_list/index.wxml</text>
+=======
+<view class="good_list">
+  <SearchInput></SearchInput>
+  <Tabs tabs="{{tabs}}" bindtabsItemChange="handleTabsItemChange">
+    <view class="first_tab" wx:for="{{goodsList}}" wx:key="goods_id">
+      <navigator class="goods_item" url="/pages/good_detail/index?goods_id={{item.goods_id}}">
+        <!-- <navigator url="/pages/good_detail/index"> -->
+        <view class="img_wrap">
+          <image mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'https://ww1.sinaimg.cn/large/007rAy9hgy1g24by9t530j30i20i2glm.jpg'}}"></image>
+        </view>
+        <view class="goods_info">
+          <view class="goods_title">{{item.goods_name}}</view>
+          <view class="goods_price">￥{{item.goods_price}}</view>
+        </view>
+      </navigator>
+    </view>
+  </Tabs>
+  
+</view>
+>>>>>>> 1bf605e (非push)

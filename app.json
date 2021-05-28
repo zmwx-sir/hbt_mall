@@ -1,0 +1,56 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/category/index",
+    "pages/auth/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/feedback/index",
+    "pages/good_detail/index",
+    "pages/good_list/index",
+    "pages/login/index",
+    "pages/order/index",
+    "pages/pay/index",
+    "pages/search/index",
+    "pages/user/index"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fa3c3c",
+    "navigationBarTitleText": "货捕头商城首页",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "iconfont/home.png",
+      "selectedIconPath": "iconfont/home-on.png"
+    },
+    {
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "iconfont/category.png",
+      "selectedIconPath": "iconfont/category-on.png"
+    },
+    {
+      "pagePath": "pages/cart/index",
+      "text": "购物车",
+      "iconPath": "iconfont/cart.png",
+      "selectedIconPath": "iconfont/cart-on.png"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "iconfont/user.png",
+      "selectedIconPath": "iconfont/user-on.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

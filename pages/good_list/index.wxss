@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+/* pages/good_list/index.wxss */
+=======
+.good_list tabs .first_tab .goods_item {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.good_list tabs .first_tab .goods_item .img_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.good_list tabs .first_tab .goods_item .img_wrap image {
+  width: 70%;
+}
+.good_list tabs .first_tab .goods_item .goods_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 3;
+}
+.good_list tabs .first_tab .goods_item .goods_info .goods_title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.good_list tabs .first_tab .goods_item .goods_info .goods_price {
+  color: var(--themeColor);
+  font-size: 32rpx;
+
+  
+}
+>>>>>>> 1bf605e (非push)

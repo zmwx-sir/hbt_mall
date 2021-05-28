@@ -1,0 +1,15 @@
+{
+<<<<<<< HEAD
+  "usingComponents": {}
+=======
+  "usingComponents": {
+    "SearchInput":"/compoents/SearchInput/SearchInput",
+    "Tabs":"/compoents/Tabs/Tabs"
+  },
+  "navigationBarTitleText": "商品列表",
+  "enablePullDownRefresh":true,
+  "backgroundTextStyle":"dark"
+  
+  
+>>>>>>> 1bf605e (非push)
+}

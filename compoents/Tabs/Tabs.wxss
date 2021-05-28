@@ -1,0 +1,20 @@
+.tabs {
+  height: 100rpx;
+  border-bottom: 2px solid #cfcfcf;
+}
+.tabs .tabs_title {
+  height: 100%;
+  display: flex;
+}
+.tabs .tabs_title .title_item {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #868481;
+}
+.tabs .tabs_title .active {
+  color: var(--themeColor);
+  border-bottom: 4rpx solid currentColor;
+}
